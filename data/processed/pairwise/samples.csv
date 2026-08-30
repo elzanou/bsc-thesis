@@ -1,0 +1,61 @@
+id,question,instrument,category,label,audio_path
+a04e7d7e-cbe0-47d9-84db-c773a63d618c,Which attempt has a more steady tempo?,guitar,tempo,A,data/processed/pairwise/audio/a04e7d7e-cbe0-47d9-84db-c773a63d618c.wav
+f92655fc-5007-4cf9-85a6-bbd6a93c5795,Which attempt has a more even dynamic level?,piano,dynamics,B,data/processed/pairwise/audio/f92655fc-5007-4cf9-85a6-bbd6a93c5795.wav
+fc0c8d16-26bf-4a42-9ebe-0a891454659b,Which attempt is closer to legato articulation?,piano,articulation,A,data/processed/pairwise/audio/fc0c8d16-26bf-4a42-9ebe-0a891454659b.wav
+540b4115-895c-4a30-a951-6d7823baecab,Which attempt is closer to staccato articulation?,piano,articulation,B,data/processed/pairwise/audio/540b4115-895c-4a30-a951-6d7823baecab.wav
+45e8d3f0-fe29-46ef-b8c9-4e4f10108a17,Which attempt is closer to staccato articulation?,piano,articulation,B,data/processed/pairwise/audio/45e8d3f0-fe29-46ef-b8c9-4e4f10108a17.wav
+fe47faf7-eeeb-4f3c-8f01-878e2e32a464,Which attempt is closer to legato articulation?,piano,articulation,B,data/processed/pairwise/audio/fe47faf7-eeeb-4f3c-8f01-878e2e32a464.wav
+d1919128-e174-4b63-94e6-ee01c9707067,Which attempt is closer to legato articulation?,piano,articulation,A,data/processed/pairwise/audio/d1919128-e174-4b63-94e6-ee01c9707067.wav
+dc39ab6b-1f73-4b0b-b8b6-2df7495b5613,Which attempt has a faster tempo?,guitar,tempo,B,data/processed/pairwise/audio/dc39ab6b-1f73-4b0b-b8b6-2df7495b5613.wav
+5fa26014-51d5-4a18-b762-376230947ac5,Which attempt has a slower tempo?,guitar,tempo,A,data/processed/pairwise/audio/5fa26014-51d5-4a18-b762-376230947ac5.wav
+376c5aea-c22a-452a-bf92-5ea333e12487,Which attempt is closer to 76 BPM?,guitar,tempo,A,data/processed/pairwise/audio/376c5aea-c22a-452a-bf92-5ea333e12487.wav
+7d4f6884-650d-4f6b-ba89-bb044974aefa,Which attempt is closer to staccatissimo articulation?,piano,articulation,A,data/processed/pairwise/audio/7d4f6884-650d-4f6b-ba89-bb044974aefa.wav
+eb0e72a6-6e39-4995-8b4f-353c39103be4,Which attempt is closer to 108 BPM?,piano,tempo,B,data/processed/pairwise/audio/eb0e72a6-6e39-4995-8b4f-353c39103be4.wav
+3ead7e55-03c3-4510-88ac-cd1fb8edd74c,Which attempt is closer to 68 BPM?,piano,tempo,A,data/processed/pairwise/audio/3ead7e55-03c3-4510-88ac-cd1fb8edd74c.wav
+b7476fdd-bb02-4ac2-b5eb-82ed5fff729d,Which attempt has the left hand entering late?,piano,rhythm_and_timing,B,data/processed/pairwise/audio/b7476fdd-bb02-4ac2-b5eb-82ed5fff729d.wav
+a90e818f-0cf4-408b-9a58-2d3af60976b8,Which attempt uses an accent on every second note?,piano,articulation,A,data/processed/pairwise/audio/a90e818f-0cf4-408b-9a58-2d3af60976b8.wav
+33df7ba8-1e4d-4318-92ad-27e0eaab35fd,Which attempt includes a fermata during the scale?,piano,articulation,B,data/processed/pairwise/audio/33df7ba8-1e4d-4318-92ad-27e0eaab35fd.wav
+1cf46e87-c33d-4d3b-b363-72ef771db595,Which attempt is in four beats per bar?,piano,rhythm_and_timing,B,data/processed/pairwise/audio/1cf46e87-c33d-4d3b-b363-72ef771db595.wav
+c2ad557e-4737-457d-ab2c-3d7c917cafc7,Which attempt is in four beats per bar?,guitar,rhythm_and_timing,A,data/processed/pairwise/audio/c2ad557e-4737-457d-ab2c-3d7c917cafc7.wav
+6c3961f8-2957-433d-93b8-c70bf09226f5,Which attempt is in three beats per bar?,guitar,rhythm_and_timing,A,data/processed/pairwise/audio/6c3961f8-2957-433d-93b8-c70bf09226f5.wav
+b39f7359-d578-4cf5-9423-9cb8038fbe9c,Which attempt has notes that ring out more clearly?,guitar,technique,B,data/processed/pairwise/audio/b39f7359-d578-4cf5-9423-9cb8038fbe9c.wav
+97ea6700-311b-4fbc-b6e0-f5904a05d90d,Which attempt is closer to forte dynamics?,piano,dynamics,A,data/processed/pairwise/audio/97ea6700-311b-4fbc-b6e0-f5904a05d90d.wav
+87fefa12-3335-4290-aee4-075eaef694db,Which attempt is closer to piano dynamics?,piano,dynamics,B,data/processed/pairwise/audio/87fefa12-3335-4290-aee4-075eaef694db.wav
+652426ff-c30c-4d1d-a1db-1322d93657e0,Which attempt is closer to forte dynamics?,piano,dynamics,B,data/processed/pairwise/audio/652426ff-c30c-4d1d-a1db-1322d93657e0.wav
+761b9ae0-9d1f-4179-8330-c086bd3d6cc5,Which attempt is closer to piano dynamics?,piano,dynamics,A,data/processed/pairwise/audio/761b9ae0-9d1f-4179-8330-c086bd3d6cc5.wav
+4d6ea547-849f-4c6b-9628-c103469832f3,Which attempt is closer to forte dynamics?,piano,dynamics,A,data/processed/pairwise/audio/4d6ea547-849f-4c6b-9628-c103469832f3.wav
+ae246b02-c266-426b-a30b-9608eaca51fd,Which attempt is closer to piano dynamics?,piano,dynamics,B,data/processed/pairwise/audio/ae246b02-c266-426b-a30b-9608eaca51fd.wav
+08619f06-0c8b-438c-8376-824e1e987d43,Which attempt is closer to about 180 BPM?,piano,tempo,A,data/processed/pairwise/audio/08619f06-0c8b-438c-8376-824e1e987d43.wav
+d33cb680-f73b-4b13-8ed0-afaa035cc91c,Which attempt is closer to about 140 BPM?,piano,tempo,B,data/processed/pairwise/audio/d33cb680-f73b-4b13-8ed0-afaa035cc91c.wav
+1bf79a04-269d-4168-a7a7-c32f87149c96,Which attempt has a slower tempo overall?,piano,tempo,B,data/processed/pairwise/audio/1bf79a04-269d-4168-a7a7-c32f87149c96.wav
+f01c0ca1-3c62-4e9a-a73a-35c5680f1892,Which attempt has a faster tempo overall?,piano,tempo,A,data/processed/pairwise/audio/f01c0ca1-3c62-4e9a-a73a-35c5680f1892.wav
+54cb4aa2-74d1-40ad-abd1-43552d0e5d3b,Which attempt has a tempo closer to 90 BPM?,piano,tempo,B,data/processed/pairwise/audio/54cb4aa2-74d1-40ad-abd1-43552d0e5d3b.wav
+145c5519-99c3-496d-a355-e3b18160488b,Which attempt has a tempo closer to 120 BPM?,piano,tempo,B,data/processed/pairwise/audio/145c5519-99c3-496d-a355-e3b18160488b.wav
+cd011de2-a385-41bc-b350-e4803a24a510,Which attempt has a faster tempo overall?,piano,tempo,A,data/processed/pairwise/audio/cd011de2-a385-41bc-b350-e4803a24a510.wav
+97aa80b4-9825-4220-bc30-8c6a3d36c76b,Which attempt follows the C major scale correctly?,guitar,pitch,A,data/processed/pairwise/audio/97aa80b4-9825-4220-bc30-8c6a3d36c76b.wav
+7ec112a8-8ba6-4a8f-84e4-775b3abb0032,Which attempt follows the A harmonic minor scale correctly?,guitar,pitch,A,data/processed/pairwise/audio/7ec112a8-8ba6-4a8f-84e4-775b3abb0032.wav
+1c4f4703-1e5c-4e66-af8d-991594ad68ed,Which attempt follows the D major scale correctly?,guitar,pitch,A,data/processed/pairwise/audio/1c4f4703-1e5c-4e66-af8d-991594ad68ed.wav
+c861e7ba-06d6-4d71-ad34-6c2111afe767,Which attempt has a 4/4 time signature?,guitar,rhythm_and_timing,B,data/processed/pairwise/audio/c861e7ba-06d6-4d71-ad34-6c2111afe767.wav
+f0584349-779f-48fe-84b3-f2729900a320,"Which attempt correctly plays the chord progression C, Am, E, Fmaj7?",guitar,harmony,B,data/processed/pairwise/audio/f0584349-779f-48fe-84b3-f2729900a320.wav
+64e958ab-a689-4ba2-9cd1-af48f77c08b1,Which attempt has cleaner tone without buzzing?,guitar,technique,B,data/processed/pairwise/audio/64e958ab-a689-4ba2-9cd1-af48f77c08b1.wav
+5eaf97fe-2156-44dd-8756-272569a2e8f0,Which attempt is closer to 83 BPM?,guitar,tempo,B,data/processed/pairwise/audio/5eaf97fe-2156-44dd-8756-272569a2e8f0.wav
+0ac2ec9a-24bb-4fcf-a23b-de3f581341b1,Which attempt has clearer tone without unintended muting?,guitar,technique,A,data/processed/pairwise/audio/0ac2ec9a-24bb-4fcf-a23b-de3f581341b1.wav
+ab6a7a83-81c5-4556-861c-9c847434e69f,Which attempt plays the notes as consistent eighth notes in 4/4?,guitar,rhythm_and_timing,B,data/processed/pairwise/audio/ab6a7a83-81c5-4556-861c-9c847434e69f.wav
+9dba692f-dec9-433d-b390-94f5def4fb42,"Which attempt plays the chord progression F, G, E, A using simple triads throughout?",piano,harmony,A,data/processed/pairwise/audio/9dba692f-dec9-433d-b390-94f5def4fb42.wav
+280f4627-6d86-4607-971f-560dd76acf03,"Which attempt plays the chord progression F, G, E, A using seventh chords throughout?",piano,harmony,B,data/processed/pairwise/audio/280f4627-6d86-4607-971f-560dd76acf03.wav
+1f09ca3e-c4c4-4da8-a285-5c1e1afa10f6,"Which attempt correctly plays the F major scale over two octaves, ascending and descending?",piano,pitch,B,data/processed/pairwise/audio/1f09ca3e-c4c4-4da8-a285-5c1e1afa10f6.wav
+fddba977-c5b2-4908-bac1-f3c3e9d146a6,Which attempt correctly plays the one-octave E major scale?,piano,pitch,A,data/processed/pairwise/audio/fddba977-c5b2-4908-bac1-f3c3e9d146a6.wav
+495ef3cc-d0da-43ee-ac62-aff97ec26887,"Which attempt correctly plays the C major scale over two octaves, ascending and descending?",piano,pitch,B,data/processed/pairwise/audio/495ef3cc-d0da-43ee-ac62-aff97ec26887.wav
+01d43746-bb7e-4b4f-a501-a8238ccca800,"Which attempt correctly plays a C major arpeggio over two octaves, ascending and descending?",piano,pitch,A,data/processed/pairwise/audio/01d43746-bb7e-4b4f-a501-a8238ccca800.wav
+f76ee8e0-d36f-426d-b1a7-a0652d7515f1,Which attempt has a softer dynamic level?,piano,dynamics,A,data/processed/pairwise/audio/f76ee8e0-d36f-426d-b1a7-a0652d7515f1.wav
+21b28128-26d9-42c4-b6f0-9fb92eaaa224,Which attempt has a louder dynamic level?,piano,dynamics,A,data/processed/pairwise/audio/21b28128-26d9-42c4-b6f0-9fb92eaaa224.wav
+24cd85ba-1027-45c5-aaa3-05711c2f5080,"Which attempt correctly plays the chord progression G, Bm, Am, Cm?",piano,harmony,A,data/processed/pairwise/audio/24cd85ba-1027-45c5-aaa3-05711c2f5080.wav
+cb5860d7-9227-4397-a95f-6a100330ec20,"Which attempt correctly plays the chord progression G, Bm, Am, C?",piano,harmony,B,data/processed/pairwise/audio/cb5860d7-9227-4397-a95f-6a100330ec20.wav
+74abc5e9-5133-4db7-90df-3bdf531dee5a,Which attempt has a 12/8 time signature?,piano,rhythm_and_timing,A,data/processed/pairwise/audio/74abc5e9-5133-4db7-90df-3bdf531dee5a.wav
+00e05bc4-3133-4182-884e-3518a05314f7,Which attempt has a 4/4 time signature?,piano,rhythm_and_timing,B,data/processed/pairwise/audio/00e05bc4-3133-4182-884e-3518a05314f7.wav
+78dd2545-5dba-4427-b1ba-931d117dbbf7,Which attempt has the notes ringing out more clearly?,guitar,technique,A,data/processed/pairwise/audio/78dd2545-5dba-4427-b1ba-931d117dbbf7.wav
+458e1734-d65d-4739-81e8-26c1ee28ab3c,Which attempt has a cleaner tone without buzzing?,guitar,technique,B,data/processed/pairwise/audio/458e1734-d65d-4739-81e8-26c1ee28ab3c.wav
+a3be4981-9ce3-4b98-93a3-86eaebe732f8,Which attempt has the notes ringing out more clearly?,guitar,technique,B,data/processed/pairwise/audio/a3be4981-9ce3-4b98-93a3-86eaebe732f8.wav
+7b4662a6-a5d6-40e0-9bef-75c27a8a7993,Which attempt has a cleaner tone without buzzing?,guitar,technique,A,data/processed/pairwise/audio/7b4662a6-a5d6-40e0-9bef-75c27a8a7993.wav
+7f8eaae3-32c4-4c10-b2a6-7f03a587335c,Which attempt has the notes ringing out more clearly?,guitar,technique,A,data/processed/pairwise/audio/7f8eaae3-32c4-4c10-b2a6-7f03a587335c.wav
+c8fc717c-65ba-45e4-a89a-84be1147fa10,Which attempt has a more steady tempo?,guitar,tempo,B,data/processed/pairwise/audio/c8fc717c-65ba-45e4-a89a-84be1147fa10.wav

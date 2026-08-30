@@ -1,0 +1,129 @@
+{
+  "total": 120,
+  "correct": 74,
+  "accuracy": 0.6166666666666667,
+  "parse_errors": 2,
+  "precision": 0.7386363636363636,
+  "recall": 0.7558139534883721,
+  "f1": 0.7471264367816092,
+  "per_category_accuracy": {
+    "pitch": {
+      "correct": 3,
+      "total": 13,
+      "accuracy": 0.23076923076923078
+    },
+    "tempo": {
+      "correct": 11,
+      "total": 20,
+      "accuracy": 0.55
+    },
+    "no_mistake": {
+      "correct": 9,
+      "total": 32,
+      "accuracy": 0.28125
+    },
+    "rhythm_and_timing": {
+      "correct": 0,
+      "total": 14,
+      "accuracy": 0.0
+    },
+    "dynamics": {
+      "correct": 1,
+      "total": 9,
+      "accuracy": 0.1111111111111111
+    },
+    "technique": {
+      "correct": 2,
+      "total": 13,
+      "accuracy": 0.15384615384615385
+    },
+    "harmony": {
+      "correct": 5,
+      "total": 10,
+      "accuracy": 0.5
+    },
+    "articulation": {
+      "correct": 5,
+      "total": 9,
+      "accuracy": 0.5555555555555556
+    }
+  },
+  "per_category_similarity": {
+    "pitch": {
+      "avg_similarity": 0.3215537942372836,
+      "total": 13
+    },
+    "tempo": {
+      "avg_similarity": 0.513188986480236,
+      "total": 20
+    },
+    "no_mistake": {
+      "avg_similarity": 0.28125,
+      "total": 32
+    },
+    "rhythm_and_timing": {
+      "avg_similarity": 0.18510862972055162,
+      "total": 14
+    },
+    "dynamics": {
+      "avg_similarity": 0.42360275652673507,
+      "total": 9
+    },
+    "technique": {
+      "avg_similarity": 0.27304933220148087,
+      "total": 13
+    },
+    "harmony": {
+      "avg_similarity": 0.4559929743409157,
+      "total": 10
+    },
+    "articulation": {
+      "avg_similarity": 0.6377432213889228,
+      "total": 9
+    }
+  },
+  "avg_mistake_similarity": 0.3641432061170538,
+  "avg_feedback_similarity": 0.35929265680412453,
+  "confusion_matrix": {
+    "pitch|technique": 2,
+    "tempo|rhythm_and_timing": 2,
+    "pitch|no_mistake": 3,
+    "no_mistake|pitch": 4,
+    "rhythm_and_timing|tempo": 5,
+    "no_mistake|no_mistake": 9,
+    "dynamics|technique": 1,
+    "tempo|no_mistake": 6,
+    "technique|tempo": 7,
+    "no_mistake|tempo": 11,
+    "harmony|tempo": 3,
+    "pitch|pitch": 3,
+    "pitch|rhythm_and_timing": 1,
+    "tempo|tempo": 11,
+    "pitch|tempo": 3,
+    "rhythm_and_timing|no_mistake": 8,
+    "articulation|articulation": 5,
+    "rhythm_and_timing|pitch": 1,
+    "dynamics|tempo": 5,
+    "articulation|no_mistake": 1,
+    "tempo|pitch": 1,
+    "no_mistake|articulation": 4,
+    "no_mistake|rhythm_and_timing": 1,
+    "no_mistake|dynamics": 2,
+    "pitch|harmony": 1,
+    "no_mistake|harmony": 1,
+    "technique|no_mistake": 2,
+    "harmony|harmony": 5,
+    "technique|technique": 2,
+    "dynamics|dynamics": 1,
+    "harmony|rhythm_and_timing": 1,
+    "harmony|dynamics": 1,
+    "articulation|pitch": 1,
+    "technique|pitch": 2,
+    "articulation|dynamics": 1,
+    "dynamics|rhythm_and_timing": 1,
+    "dynamics|no_mistake": 1,
+    "articulation|tempo": 1
+  },
+  "confusion_matrix_single": {},
+  "confusion_matrix_double": {}
+}

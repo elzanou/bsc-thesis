@@ -1,0 +1,57 @@
+{
+  "total": 60,
+  "correct": 33,
+  "accuracy": 0.55,
+  "parse_errors": 0,
+  "precision": 0.5577663671373556,
+  "recall": 0.5499999999999999,
+  "f1": 0.5343489508479448,
+  "per_category_accuracy": {
+    "tempo": {
+      "correct": 6,
+      "total": 15,
+      "accuracy": 0.4
+    },
+    "dynamics": {
+      "correct": 4,
+      "total": 9,
+      "accuracy": 0.4444444444444444
+    },
+    "articulation": {
+      "correct": 6,
+      "total": 8,
+      "accuracy": 0.75
+    },
+    "rhythm_and_timing": {
+      "correct": 3,
+      "total": 8,
+      "accuracy": 0.375
+    },
+    "technique": {
+      "correct": 4,
+      "total": 8,
+      "accuracy": 0.5
+    },
+    "pitch": {
+      "correct": 6,
+      "total": 7,
+      "accuracy": 0.8571428571428571
+    },
+    "harmony": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8
+    }
+  },
+  "per_category_similarity": {},
+  "avg_mistake_similarity": null,
+  "avg_feedback_similarity": null,
+  "confusion_matrix": {
+    "B|B": 11,
+    "A|B": 8,
+    "A|A": 22,
+    "B|A": 19
+  },
+  "confusion_matrix_single": {},
+  "confusion_matrix_double": {}
+}

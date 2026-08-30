@@ -1,0 +1,34 @@
+{
+  "total": 120,
+  "no_mistake": 9,
+  "missed": 21,
+  "hallucinated": 23,
+  "llm_evaluated": 67,
+  "judged": 67,
+  "parse_errors": 0,
+  "mistake_distribution": {
+    "correct": 15,
+    "partially_correct": 15,
+    "incorrect": 37
+  },
+  "feedback_distribution": {
+    "helpful": 16,
+    "generic": 10,
+    "unhelpful": 41
+  },
+  "no_mistake_rate": 0.075,
+  "missed_rate": 0.175,
+  "hallucinated_rate": 0.19166666666666668,
+  "llm_evaluated_rate": 0.5583333333333333,
+  "parse_error_rate": 0.0,
+  "mistake_rates": {
+    "correct": 0.22388059701492538,
+    "partially_correct": 0.22388059701492538,
+    "incorrect": 0.5522388059701493
+  },
+  "feedback_rates": {
+    "helpful": 0.23880597014925373,
+    "generic": 0.14925373134328357,
+    "unhelpful": 0.6119402985074627
+  }
+}

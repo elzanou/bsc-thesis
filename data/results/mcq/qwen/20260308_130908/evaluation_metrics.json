@@ -1,0 +1,100 @@
+{
+  "total": 120,
+  "correct": 36,
+  "accuracy": 0.3,
+  "parse_errors": 1,
+  "precision": 0.22419724770642202,
+  "recall": 0.17291666666666666,
+  "f1": 0.12929003620492982,
+  "per_category_accuracy": {
+    "pitch": {
+      "correct": 0,
+      "total": 13,
+      "accuracy": 0.0
+    },
+    "tempo": {
+      "correct": 1,
+      "total": 20,
+      "accuracy": 0.05
+    },
+    "no_mistake": {
+      "correct": 32,
+      "total": 32,
+      "accuracy": 1.0
+    },
+    "rhythm_and_timing": {
+      "correct": 0,
+      "total": 14,
+      "accuracy": 0.0
+    },
+    "dynamics": {
+      "correct": 1,
+      "total": 9,
+      "accuracy": 0.1111111111111111
+    },
+    "technique": {
+      "correct": 0,
+      "total": 13,
+      "accuracy": 0.0
+    },
+    "harmony": {
+      "correct": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "articulation": {
+      "correct": 2,
+      "total": 9,
+      "accuracy": 0.2222222222222222
+    }
+  },
+  "per_category_similarity": {},
+  "avg_mistake_similarity": null,
+  "avg_feedback_similarity": null,
+  "confusion_matrix": {
+    "pitch|no_mistake": 13,
+    "tempo|no_mistake": 18,
+    "no_mistake|no_mistake": 32,
+    "rhythm_and_timing|no_mistake": 12,
+    "dynamics|no_mistake": 7,
+    "technique|no_mistake": 12,
+    "harmony|no_mistake": 8,
+    "articulation|no_mistake": 7,
+    "articulation|articulation": 2,
+    "tempo|tempo": 1,
+    "tempo|dynamics": 1,
+    "rhythm_and_timing|tempo": 1,
+    "technique|articulation": 1,
+    "dynamics|articulation": 1,
+    "harmony|rhythm_and_timing": 2,
+    "dynamics|dynamics": 1
+  },
+  "confusion_matrix_single": {
+    "pitch|no_mistake": 5,
+    "tempo|no_mistake": 7,
+    "no_mistake|no_mistake": 14,
+    "rhythm_and_timing|no_mistake": 6,
+    "dynamics|no_mistake": 2,
+    "articulation|no_mistake": 4,
+    "articulation|articulation": 2,
+    "technique|no_mistake": 1,
+    "harmony|no_mistake": 5,
+    "harmony|rhythm_and_timing": 2
+  },
+  "confusion_matrix_double": {
+    "technique|no_mistake": 11,
+    "no_mistake|no_mistake": 18,
+    "harmony|no_mistake": 3,
+    "rhythm_and_timing|no_mistake": 6,
+    "pitch|no_mistake": 8,
+    "tempo|no_mistake": 11,
+    "dynamics|no_mistake": 5,
+    "tempo|tempo": 1,
+    "tempo|dynamics": 1,
+    "rhythm_and_timing|tempo": 1,
+    "technique|articulation": 1,
+    "dynamics|articulation": 1,
+    "articulation|no_mistake": 3,
+    "dynamics|dynamics": 1
+  }
+}

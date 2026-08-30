@@ -1,0 +1,74 @@
+providers:
+  # OpenAI - text only (LLM-as-judge)
+  openai:
+    api_key: ${OPENAI_API_KEY}
+    default_model: gpt-4o
+    temperature: 0
+    max_tokens: 1024
+    supports_audio: false
+
+  # OpenAI with audio support
+  openai_audio:
+    api_key: ${OPENAI_API_KEY}
+    default_model: gpt-4o-audio-preview
+    temperature: 0
+    max_tokens: 1024
+    supports_audio: true
+    json_mode: true
+
+  # Gemini via OpenAI-compatible endpoint
+  gemini:
+    api_key: ${GEMINI_API_KEY}
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    default_model: gemini-2.0-flash
+    temperature: 0
+    max_tokens: 1024
+    supports_audio: true
+    json_mode: true
+
+  # Qwen via DashScope OpenAI-compatible endpoint (international)
+  qwen:
+    api_key: ${DASHSCOPE_API_KEY}
+    base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+    default_model: qwen2.5-omni-7b
+    temperature: 0
+    max_tokens: 1024
+    supports_audio: true
+
+  # Ollama (local)
+  ollama:
+    base_url: http://localhost:11434/v1
+    default_model: llama3
+    temperature: 0.7
+    max_tokens: 1024
+    supports_audio: false
+
+  # NVIDIA Audio Flamingo 3 (local, requires A100/H100)
+  audio_flamingo:
+    default_model: nvidia/audio-flamingo-3-hf
+    device: cuda
+    torch_dtype: bfloat16
+    max_tokens: 2048
+    supports_audio: true
+
+  # NVIDIA Music Flamingo (local, requires A100/H100)
+  music_flamingo:
+    default_model: nvidia/music-flamingo-hf
+    device: cuda
+    torch_dtype: bfloat16
+    max_tokens: 2048
+    supports_audio: true
+
+  # Qwen2.5-Omni (local, requires A100/H100)
+  qwen_local:
+    default_model: Qwen/Qwen2.5-Omni-7B
+    device: cuda
+    torch_dtype: bfloat16
+    max_tokens: 1024
+    supports_audio: true
+
+inference:
+  max_concurrent: 5
+  max_retries: 3
+  retry_delay: 1.0
+  cache_dir: data/cache
